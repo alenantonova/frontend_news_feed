@@ -1,0 +1,37 @@
+.post-form {
+    background: teal ;
+    width:587px;
+    padding: 20px;
+    position:absolute;
+    left: 20px;
+    top: 9px;
+}
+
+.content-label {
+    position:absolute;
+    right: 85px;
+    color: white;
+}
+
+.category-label {
+    color: white;
+}
+
+.button {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    box-sizing: border-box;
+    height: 20px;
+    border: 0.3mm solid;
+    border-color: gray;
+}
+
+.button:hover {
+    background: green;
+    color: white;
+}
+
+.select-style {
+    width: 100px;
+}

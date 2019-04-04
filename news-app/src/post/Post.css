@@ -1,0 +1,42 @@
+.post {
+    width: 650px;
+    margin: 10px 0 10px 0;
+    position:  relative;
+    top:50px;
+    left: 750px;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    background:white;
+}
+
+
+.content {
+    display: flex;
+    padding: 10px;
+    width:535px;
+    border: solid;
+    border-radius: 0.5rem;
+    border-color: teal;
+}
+
+.label {
+    box-sizing: border-box;
+    color: teal;
+}
+
+.remove-button {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    border: 0.3mm solid;
+    border-color: gray;
+    border-radius: 0.5mm;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background: tomato;
+    color: white;
+}

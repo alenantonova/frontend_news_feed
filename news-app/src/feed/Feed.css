@@ -1,0 +1,16 @@
+.pic {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 626px;
+}
+
+.posts-num {
+    position: relative;
+    top: 20px;
+    width:210px;
+    left: 980px;
+    border: solid;
+    border-radius: 0.5rem;
+    border-color:orange;
+}
